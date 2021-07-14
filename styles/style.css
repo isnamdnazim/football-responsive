@@ -24,6 +24,10 @@ a{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+/* visited link */
+a:visited {
+    color: #0F00ED;
+  }
 main{
     align-items: center;
 }
