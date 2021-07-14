@@ -246,6 +246,7 @@ header{
 /* Media Queries */
 
 /* mobile devices */
+
 @media only screen and (max-width:688px) {
     body{
         
@@ -297,9 +298,6 @@ header{
     .footer-logo img{
         width: 250.87px;
         height: 55px;
-    }
-    .footer{
-        width: 260px;
     }
     .footer-section{
         margin-top: 700px;
