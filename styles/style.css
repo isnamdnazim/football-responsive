@@ -216,6 +216,7 @@ header{
 /* footer section style  */
 
 .footer-section{
+    position: sticky;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -245,6 +246,9 @@ header{
 
 /* mobile devices */
 @media only screen and (max-width:688px) {
+    body{
+        overflow-x: hidden;
+    }
     .container{    
         width: 100%;
     }
@@ -290,5 +294,8 @@ header{
     }
     .footer{
         width: 260px;
+    }
+    .footer-section{
+        margin-top: 700px;
     }
 }
