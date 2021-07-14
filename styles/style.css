@@ -301,16 +301,55 @@ header{
 }
 
 /* tablet devices */
-@media only screen and (min-width:688px) and (max-width:992px){
+@media only screen and (min-width:688px) and (max-width:1312px){
     .container{
         width: 100%;
+        padding: 05%;
     }
-    .players,.courses{
-        /* background-color: red; */
+    body,html{
+        overflow-x: hidden;
+    }
+    .flexible-area{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 29px;
+    }
+    .intro-img,.image{
+        width: 325px;
+        height: 255px;
+    }
+    .intro-title{
+        width: 270px;
+        height: 130px;
+    }
+    .intro-title h1, .highlights-info h1{
+        font-size: 30px;
+        line-height: 50px;
+        height: 138px;
+    }
+    .highlights-info p{
+        padding: 0;
+        line-height: 21px;
+    }
+    .players{
         grid-template-columns: repeat(2, 1fr);
     }
     .blogs{
         /* background-color: red; */
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
+    .blog{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .partnership{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .partnership-logo{
+        flex-direction: column;
+    }
+    .footer-section{
+        margin-top: 250px;
+    }
+
 }
