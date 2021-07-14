@@ -25,9 +25,7 @@ a{
     text-decoration: none;
 }
 /* visited link */
-a:visited {
-    color: #0F00ED;
-  }
+
 main{
     align-items: center;
 }
@@ -246,6 +244,18 @@ header{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
 }
+.fb-link-visited:visited {
+    color: #0E90F2;
+  }
+.insta-link-visited:visited {
+    color: #9C36AA;
+  }
+.twitter-link-visited:visited {
+    color: #5DA9DC;
+  }
+.youtube-link-visited:visited {
+    color: #FF0102;
+  }
 
 /* Media Queries */
 
