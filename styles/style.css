@@ -9,6 +9,7 @@
 /* common style or utilities */
 body{
     margin: 0;
+    
 }
 h1 ,h2 {
     /* poppins 700 */
@@ -247,9 +248,14 @@ header{
 /* mobile devices */
 @media only screen and (max-width:688px) {
     body{
+        
+        width: 100%;
+    }
+    body,html{
         overflow-x: hidden;
     }
     .container{    
+        padding: 05%;
         width: 100%;
     }
     .flexible-area{
