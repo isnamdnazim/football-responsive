@@ -244,6 +244,18 @@ header{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
 }
+.fb-link-visited{
+    color: #0E90F2;
+}
+.insta-link-visited{
+    color: #9C36AA;
+}
+.twitter-link-visited{
+    color: #5DA9DC;
+}
+.youtube-link-visited{
+    color: #FF0102;
+}
 .fb-link-visited:visited {
     color: #0E90F2;
   }
