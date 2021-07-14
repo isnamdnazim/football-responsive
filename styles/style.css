@@ -178,29 +178,39 @@ header{
 
 /* bonus section two / partnership section  */
 
+.partners{
+    margin: 10px;
+}
 .partnership-with{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 300px;
-    justify-content: center;
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .partnership-with h2{
-    margin-bottom: 70px;
+    margin-top: 100px;
     color: #2D25A0;
 }
+/* .partnership{
+    display: flex;
+    margin: 0 40px 0 40px;
+} */
 
 .partnership{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-gap: 60px;
+    grid-gap: 30px;
 }
 .partnership-logo{
-    height: 150px;
-    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 170px;
+    padding: 0 30px 0 30px;
 }
 
 /* footer section style  */
@@ -223,5 +233,62 @@ header{
     height: 110px;
 }
 .social-links > a > i{
-    padding-left: 14px;
+    padding: 14px;
+    
+}
+.social-links a{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+/* Media Queries */
+
+/* mobile devices */
+@media only screen and (max-width:688px) {
+    .container{    
+        width: 100%;
+    }
+    .flexible-area{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 29px;
+    }
+    .intro-img,.image{
+        width: 325px;
+        height: 255px;
+    }
+    .intro-title{
+        width: 270px;
+        height: 130px;
+    }
+    .intro-title h1, .highlights-info h1{
+        font-size: 30px;
+        line-height: 50px;
+        height: 138px;
+    }
+    .highlights-info p{
+        padding: 0;
+        line-height: 21px;
+    }
+    .container, .players, .blogs, .partnership{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  .blog, .partnership-logo{
+        flex-direction: column;
+    }
+
+    .player{
+        padding: 10px;
+    }
+    .highlights-info{
+        width: 329px;
+        height: 490px;
+    }
+    .footer-logo img{
+        width: 250.87px;
+        height: 55px;
+    }
+    .footer{
+        width: 260px;
+    }
 }
